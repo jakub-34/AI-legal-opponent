@@ -1,1 +1,1 @@
-# AI-legal-opponent
+# AI legal opponent

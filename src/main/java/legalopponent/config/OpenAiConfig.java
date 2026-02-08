@@ -16,7 +16,7 @@ public record OpenAiConfig(
             throw new IllegalStateException("Nastav svoj OPENAI_API_KEY v súbore .env");
         }
 
-        String model = dotenv.get("OPENAI_MODEL", "gpt-4o-mini");
+        String model = "o3-mini";
 
         return new OpenAiConfig(apiKey, model);
     }
